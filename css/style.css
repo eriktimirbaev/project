@@ -19,8 +19,8 @@ body {
 
 #link1, #link2 {
 	float: left;
-	padding: 25px 20px;
-	font-size: 20px;
+	padding: 30px 10px;
+	font-size: 1.5vw;
 	font-family: 'Tektur';
 	color: white;
 	text-decoration: none;
@@ -50,7 +50,7 @@ body {
 	padding-top: 20px;
 	margin-bottom: 0px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 2.8vw;
 	font-family: 'Tektur';
 	color: white;
 }
@@ -58,14 +58,14 @@ body {
 .fon p{
 	text-align: center;
 	margin-top: 10px;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: 'Tektur';
 	color: white;
 }
 
 #text {
 	margin-top: 25px;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: 'Tektur';
 	font-weight: bold;
 	color: #4DA92D;
@@ -79,8 +79,8 @@ body {
 }
 
 .block1 {
-	width: 300px;
-	height: 400px;
+	width: 20%;
+	height: auto;
 	flex-shrink: 1;
 	background-color: #4DA92D;
 	border-top-left-radius: 1em;
@@ -91,7 +91,7 @@ body {
 
 .block1 img {
 	width: 100%;
-	height: 200px;
+	height: auto;
 	border-top-left-radius: 1em;
 	border-top-right-radius: 1em;
 }
@@ -99,7 +99,7 @@ body {
 .block1 a {
 	float: left;
 	padding: 10px 20px;
-	font-size: 20px;
+	font-size: 1.5vw;
 	font-family: 'Tektur';
 	color: white;
 	text-decoration: none;
@@ -122,24 +122,25 @@ body {
 .block2 img {
 	float: left;
 	width: 100%;
-	height: 450px;
+	height: auto;
 	flex-shrink: 1;
-	border-top-left-radius: 15em;
-	border-top-right-radius: 15em;
-	border-bottom-left-radius: 15em;
-	border-bottom-right-radius: 15em;
+	border-top-left-radius: 10em;
+	border-top-right-radius: 10em;
+	border-bottom-left-radius: 10em;
+	border-bottom-right-radius: 10em;
 }
 
 .text {
 	flex-shrink: 1;
 	float: left;
+	width: 100%;
 	padding-right: 100px;
 	padding-left: 100px;
 }
 
 .text h1 {
 	flex-shrink: 1;
-	font-size: 30px;
+	font-size: 2vw;
 	font-family: 'Tektur';
 	color: #4DA92D;
 	text-align: center;
@@ -147,7 +148,7 @@ body {
 
 .text p {
 	flex-shrink: 1;
-	font-size: 20px;
+	font-size: 1.5vw;
 	font-family: 'Tektur';
 	text-align: center;
 }
